@@ -1,0 +1,15 @@
+(.devops) punjaj@AMRAP19MgQUfb24:~/learning/Uda_Micro_K8s$ ./run_kubernetes.sh
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/jpmake-prediction   1/1     1            1           3m19s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/jpmake-prediction-7856789956   1         1         1       3m19s
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   5d6h
+
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/jpmake-prediction-7856789956-d6slf   1/1     Running   0          3m19s
+Forwarding from 0.0.0.0:8080 -> 80
+Handling connection for 8080
+Handling connection for 8080
