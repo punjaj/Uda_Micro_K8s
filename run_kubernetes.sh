@@ -11,7 +11,7 @@ dockerpath="jpunjal/jpmake-prediction:v1.0.0"
 # Step 2
 # Run the Docker Hub container with kubernetes
 # Deploy an App from the Dockerhub to the Kubernetes Cluster
-#kubectl create deploy jpmake-prediction --image=jpunjal/jpmake-prediction:v1.0.0
+kubectl create deploy jpmake-prediction --image=jpunjal/jpmake-prediction:v1.0.0
 # Step 3:
 # List kubernetes pods
 kubectl get deploy,rs,svc,pods

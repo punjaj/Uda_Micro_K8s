@@ -13,3 +13,11 @@ pod/jpmake-prediction-7856789956-d6slf   1/1     Running   0          3m19s
 Forwarding from 0.0.0.0:8080 -> 80
 Handling connection for 8080
 Handling connection for 8080
+
+punjaj@AMRAP19MgQUfb24:~/learning/Uda_Micro_K8s$ ./make_prediction.sh
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
