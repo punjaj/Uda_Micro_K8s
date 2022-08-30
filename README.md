@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/punjaj/Uda_Micro_K8s/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/punjaj/Uda_Micro_K8s/tree/master)
 
 ## Project Overview
 
